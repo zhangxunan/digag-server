@@ -1,9 +1,4 @@
-[![](https://img.shields.io/docker/pulls/digag/digag-server.svg)](https://hub.docker.com/r/digag/digag-server 'DockerHub') 
-[![](https://badge.juejin.im/entry/5986d4d26fb9a03c350a5181/likes.svg?style=flat-square)](https://juejin.im/entry/5986d4d26fb9a03c350a5181/detail)
-![License MIT](https://img.shields.io/badge/license-MIT-blue.svg) 
 
-
- 
  ### Usage
  镜像地址
 ```
@@ -19,8 +14,8 @@ To run it:
      # 注意在mysql容器里先创建数据库，不然访问时会导致web容器关闭
      docker-compose exec mysql bash
      mysql -uroot -proot
-     create database `db_digag` default character set utf8 collate utf8_general_ci;
+     create database `db_kp` default character set utf8 collate utf8_general_ci;
 ```
 
-     
- ### online http://139.224.135.86:8080/swagger-ui.html
+ ### local  http://127.0.0.1:8080/swagger-ui.html  
+ ### online 
